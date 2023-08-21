@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  color: white;
+  height: 65px;
+  width: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to right, #672280, #a626d3);
+  padding: 20px;
+}
+
+.header--title {
+  font-size: 1.25rem;
+  margin-left: -145px;
+}
+
+.header--image {
+  height: 100%;
+  margin-right: 6px;
+}
+
+.header--paragraph {
+  font-size: 0.75rem;
+}
